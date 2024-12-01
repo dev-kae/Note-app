@@ -35,3 +35,57 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+:root {
+    --ion-font-family: 'Poppins', sans-serif;
+    --ion-background-color: #0d0b17;
+    --ion-button-background: #C373F2;
+  }
+  .custom-alert {
+    --background: #0d0b17;
+    
+    .alert-wrapper {
+      background: #0d0b17;
+      border-radius: 15px;
+    }
+    
+    .alert-head {
+      h2 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+    }
+    
+    .alert-input-group {
+      padding: 10px;
+      
+      .alert-input {
+        background: rgba(255, 255, 255, 0.05);
+        border: none;
+        color: white;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 8px;
+        
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+    
+    .alert-button-group {
+      padding: 10px;
+      
+      button {
+        color: #C373F2;
+        font-family: 'Poppins', sans-serif;
+        
+        &.confirm-button {
+          background: #C373F2;
+          color: white;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  
